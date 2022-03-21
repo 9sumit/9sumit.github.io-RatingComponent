@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;900&display=swap');
+body{
+	margin:0;
+	padding:0;
+	background-color:hsl(213, 19%, 18%);
+	font-family: 'Outfit', sans-serif;
+
+}
+.RatingComp{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+
+
+}
+.maincomp{
+	background-color:hsl(216, 12%, 8%);
+width: 300px;
+padding: 28px;
+border-radius: 22px;
+}
+
+.maincomp svg {
+border-radius: 50%;
+padding: 15px;
+background-color: hsl(213, 19%, 18%);
+}
+
+.thankyou {
+background-color: hsl(216, 12%, 8%);
+width: 300px;
+padding: 28px;
+border-radius: 22px;
+}
+
+h1 {
+color: hsl(0, 0%, 100%);
+margin: 20px 0;
+}
+
+p {
+color: hsl(217, 12%, 63%);
+line-height: 1.5;
+font-size: 15px;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 0;
+margin: 45px 0;
+}
+
+li {
+color: hsl(217, 12%, 63%);
+width: 18px;
+height: 18px;
+list-style-type: none;
+text-align: center;
+padding: 18px;
+border-radius: 50%;
+background-color: hsl(213, 19%, 18%);
+}
+
+button {
+width: 100%;
+border-radius: 40px;
+background-color: hsl(25, 97%, 53%);
+border: none;
+height: 45px;
+color: hsl(0, 0%, 100%);
+font-size: 14px;
+letter-spacing: 2px;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.thankyou svg {
+display: block;
+margin: auto;
+}
+
+#rating {
+border: none;
+border-radius: 20px;
+color: hsl(25, 97%, 53%);
+word-spacing: 1.5px;
+background-color: hsl(213, 19%, 18%);
+	text-align:center;
+	padding:4px;
+	width:180px;
+   font-size:15px;
+   font-weight:normal;
+	margin:20px auto;
+}
+.thanks{
+	text-align:center;
+}
+.thanksp{
+	text-align:center;
+}
+.attribution { font-size: 11px; text-align: center;color:white;position:absolute;left:50%;top:100%;transform: translate(-50%, -100%);;}
+    .attribution a { color: hsl(228, 45%, 44%); }
